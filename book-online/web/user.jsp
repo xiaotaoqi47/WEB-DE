@@ -19,7 +19,7 @@
 
             display: flex;
             align-items: center;
-            padding-left: 2%;
+            padding-left: -10%;
             margin-bottom: 15px;
 
         }
@@ -31,9 +31,10 @@
         }
 
         .nav li {
-            color: rgb(61, 133, 73);
+            color: rgb(2, 136, 209);
             font-size: 18px;
             margin-right: 20px;
+
         }
 
         .search-input {
@@ -86,11 +87,12 @@
         }
 
         .item {
-            height: 80px;
+            height: 70px;
             margin-top: 10px;
             margin-bottom: 10px;
             padding-top: 10px;
             padding-bottom: 10px;
+
         }
 
         .read {
@@ -98,7 +100,7 @@
         }
 
         .read a {
-            color: rgb(51, 119, 170);
+            color: rgb(102, 187, 106);
             text-decoration: none;
         }
 
@@ -178,13 +180,14 @@
                     <li>每日话题</li>
                 </ul>
                 <p>今天你学习了吗？ </p>
+                <p>你为什么要学习？</p>
             </div>
             <div class="item">
                 <ul class="nav">
                     <li>评论区</li>
                 </ul>
                 <label>
-                    <textarea cols="80" rows="5"></textarea>
+                    <textarea cols="80" rows="5" placeholder="好好学习，天天向上"></textarea>
                 </label>
                 <div>
                     <input type="button" value="发表">
@@ -193,10 +196,12 @@
             <br>
             <div class="item">
                 <ul class="nav">
-                    <li>会员到期</li>
+                    <li>足迹</li>
                 </ul>
-                <p>(2019.1.31-2020.1.31)</p>
+                <p>收藏了shinian喜欢的书</p>
+                  <p> 关注了淘气包</p>
             </div>
+
         </div>
 
         <%-- 右侧1/3区域--%>
@@ -207,17 +212,39 @@
                     <div>
                         <p>性别：${user.gender}</p>
                         <p>账号：${user.account}</p>
+                        <p>关注：30人</p><p>粉丝：15001620</p>
                         <p>${user.joinDate}加入</p>
                     </div>
                 </div>
-                <br>
-                <h2><p>昵称:${user.nickname}</p></h2>
+                <h3><p style="color: #3e2723;">昵称:${user.nickname}</p></h3>
+                <p>会员到期：2020.1.31</p>
             </div>
-            <br>
+
             <div class="item">
+                <div class="read">
+                    <p>
+                        <a href="">好友动态</a>
+                    </p>
+                </div>
+                <div class="read">
+                    <p>
+                        <a href="">特别关心</a>
+                    </p>
+
+                </div>
+                <div class="read">
+                    <p>
+                        <a href="">与我相关</a>
+                    </p>
+
+                </div>
+                <br>
+                <hr>
+
                 <ul class="nav">
-                    <li>${user.nickname}推荐</li>
+                    <li>${user.nickname}每日推荐</li>
                 </ul>
+
                 <br>
                 <div class="read">
                     <p>
@@ -226,28 +253,19 @@
 
                     <p style="color: #9b9b9b;">2019年10月4日</p>
                 </div>
-                <div class="read">
-                    <p>
-                        <a href="">仓央嘉措诗集</a>
-                    </p>
-                    <p style="color: #9b9b9b;">2018年5月31日</p>
-                </div>
-                <div class="read">
-                    <p>
-                        <a href="">他与月光为邻</a>
-                    </p>
-                    <p style="color: #9b9b9b;">2017年1月31日</p>
-                </div>
+
+
             </div>
+
         </div>
     </div>
+
 </div>
 <footer>
     <ul>
-        <li>@2015-2019</li>
-        <li>niit.edu.cn,</li>
-        <li>all rights reserved</li>
-        <li>南工院计算机学院</li>
+        <li>@2001-2019</li>
+        <li>Deliberately avoid,is really care</li>
+        <li>哎呀呀出版</li>
     </ul>
     <ul>
         <li>联系我们</li>
