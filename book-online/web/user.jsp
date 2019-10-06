@@ -177,17 +177,17 @@
             </div>
             <div class="item">
                 <ul class="nav">
-                    <li>每日话题</li>
+                    <li>话题</li>
                 </ul>
-                <p>今天你学习了吗？ </p>
-                <p>你为什么要学习？</p>
+                <p>发一张自己最酷的照片</p>
+                <p>学渣如何过四级？</p>
             </div>
             <div class="item">
                 <ul class="nav">
                     <li>评论区</li>
                 </ul>
                 <label>
-                    <textarea cols="80" rows="5" placeholder="好好学习，天天向上"></textarea>
+                    <textarea cols="80" rows="5" placeholder="烟雨入江南"></textarea>
                 </label>
                 <div>
                     <input type="button" value="发表">
@@ -198,8 +198,9 @@
                 <ul class="nav">
                     <li>足迹</li>
                 </ul>
-                <p>收藏了shinian喜欢的书</p>
-                  <p> 关注了淘气包</p>
+                <p>收藏了十亿少男的梦kk的书</p>
+                <p> 关注了Yoke</p>
+                <p>关注了不缪</p>
             </div>
 
         </div>
@@ -223,18 +224,21 @@
             <div class="item">
                 <div class="read">
                     <p>
-                        <a href="">好友动态</a>
+                        <a href="">好友动态：</a>
+                        草莓味的混世少女刚发表了动态
                     </p>
                 </div>
                 <div class="read">
                     <p>
-                        <a href="">特别关心</a>
+                        <a href="">特别关心：</a>
+                        来日方长上线
                     </p>
 
                 </div>
                 <div class="read">
                     <p>
-                        <a href="">与我相关</a>
+                        <a href="">与我相关：</a>
+                        吴家小妹@了你
                     </p>
 
                 </div>
@@ -248,7 +252,7 @@
                 <br>
                 <div class="read">
                     <p>
-                        <a href="">席慕容散文集</a>
+                        <a href="">你得不到的小布丁</a>
                     </p>
 
                     <p style="color: #9b9b9b;">2019年10月4日</p>
